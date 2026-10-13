@@ -1,0 +1,6 @@
+probe,macro_f1_mean,macro_f1_std
+Majority class,0.1179124127480935,0.00022217929577462645
+Orderless token histogram,0.3983555172567591,0.009374448183939291
+Global spectral moments,0.2898355883319077,0.030074759250482995
+Early-fusion features (linear),0.5617923054935618,0.0357053791859678
+Oracle: trusted quadrant + climate metadata,1.0,0.0

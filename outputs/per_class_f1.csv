@@ -1,0 +1,26 @@
+model,class,f1
+ST-CGN,Healthy,0.9298572315332092
+ST-CGN,Nitrogen Deficiency,0.9258836944127709
+ST-CGN,Drought Stress,0.9411764705882353
+ST-CGN,Weed Infestation,0.9461077844311377
+ST-CGN,Waterway Encroachment,0.8876712328767123
+Unimodal CNN,Healthy,0.002386634844868735
+Unimodal CNN,Nitrogen Deficiency,0.49842767295597484
+Unimodal CNN,Drought Stress,0.34974533106960953
+Unimodal CNN,Weed Infestation,0.44155844155844154
+Unimodal CNN,Waterway Encroachment,0.27055702917771884
+Unimodal BiLSTM,Healthy,0.5011459129106188
+Unimodal BiLSTM,Nitrogen Deficiency,0.012987012987012988
+Unimodal BiLSTM,Drought Stress,0.6783369803063457
+Unimodal BiLSTM,Weed Infestation,0.36964504283965727
+Unimodal BiLSTM,Waterway Encroachment,0.40562248995983935
+Early Fusion,Healthy,0.46337579617834396
+Early Fusion,Nitrogen Deficiency,0.4661458333333333
+Early Fusion,Drought Stress,0.7616707616707616
+Early Fusion,Weed Infestation,0.6595092024539877
+Early Fusion,Waterway Encroachment,0.47058823529411764
+Late Fusion,Healthy,0.40709459459459457
+Late Fusion,Nitrogen Deficiency,0.511731843575419
+Late Fusion,Drought Stress,0.7568238213399504
+Late Fusion,Weed Infestation,0.6547231270358306
+Late Fusion,Waterway Encroachment,0.5069860279441117

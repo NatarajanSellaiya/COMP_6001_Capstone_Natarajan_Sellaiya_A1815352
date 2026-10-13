@@ -1,0 +1,6 @@
+model,parameters,flops,param_MiB_fp32,adamw_state_MiB,cross_check,time_complexity,memory_complexity
+ST-CGN,355095,281853504,1.3545799255371094,4.063739776611328,"thop macs=145,358,112","O(c^2 n^2 + t h^2 + R^2 t d), R=4",O(c n^2 + t h + R^2 t)
+Unimodal CNN,145221,271615232,0.5539741516113281,1.6619224548339844,"thop macs=140,133,504",O(c^2 n^2),O(c n^2)
+Unimodal BiLSTM,177381,9372928,0.6766548156738281,2.0299644470214844,"thop macs=4,825,216",O(t h (e + h)),O(t h)
+Early Fusion,21701,41216,0.08278274536132812,0.24834823608398438,"thop macs=21,120",O(n^2 + t e + d^2),O(d)
+Late Fusion,322604,280988160,1.2306365966796875,3.6919097900390625,"thop macs=144,958,720",O(c^2 n^2 + t h^2),O(c n^2 + t h)
